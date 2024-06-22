@@ -93,3 +93,4 @@ git config --global user.email "danielauninove@outlook.com"
 git clone https://github.com/DanielaSabino06/javascript.git
 
 git add . (adiciona todas as alteraçoes)
+git commit -m "Descrição das alterações" 
