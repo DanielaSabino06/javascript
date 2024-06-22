@@ -1,0 +1,81 @@
+Boas práticas na programação:
+
+1) Documentação
+/**
+* Descrição do código  (o que faz, para que serve)
+* @Author (Nome do autor do código)
+* @Link  https://...
+*/
+
+2) Código limpo
+- não abusar de comentarios
+
+3) Nomeação:
+   - Não usar caracteres especiais, espaços e acentos
+   - Nomes de arquivos, variáveis, funções devem ser 
+   escritos com a primeira letra em caixa baixa (letra
+   minúscula), iniciar com caixa alta (maiúscula) apenas em classes modelos.
+   - definir nomes que tenhas relação com o problema a ser resolvido.
+
+   4) alinhamento (identação do código)
+
+   5) Quanto menos código usado para resolver o problema, melhor!
+________________________________________________________________
+alguns comandos de terminal:
+
+cls ou clear (limpar a tela do terminal)
+node -v (exibe aversão do node)
+cd pasta (entrar na pasta)
+cd .. (voltar um nível)
+node arquivo.js (executar um arquivo JavaScript)
+dir ou ls (listar os arquivos e diretórios)
+seta para cima (repete os comandos)
+<tab> (completa o comando)
+
+__________________________________________________________________
+VSCode: Dicas
+Combinação de teclas <Alt><shift><f> //alinhamento do código
+___________________________________________________________________
+JavaScript:
+
+Caracteristicas:
+- Sentenças e não linhas de código (não é o conceito de linhas)
+- ; é opcional
+console.clear() //limpar a tela do console
+console.log() //escrever no console
+// comentarios de linhas
+Podemos usar aspas " " ou ' ' 
+Não podemos usar aspas diferentes " ' ou ' "
+ Dica:  Usar em textos "aspas" quando for entre "" é texto 
+        Usar em bibliotecas ou caminhos 'apóstrofe'
+
+__________________________________________________________________
+Operadores:
+
+Observações:
+- Regra da precedência 
+- % (não calcula porcentagem e sim o resto da divisão)
+Ex: 
+   | 3
+10 |____
+ 1   3
+ 10 / 3 //3.33
+ 10 % 3 //resultado é 1 
+
+ Comparadores de igualdade:
+ NÃO USAR == !=
+
+Operadores lógicos
+Dica:
+professorjosedeassis.github.io/simulador
+
+____________________________________________________________________
+Estudo das variaveis:
+- String (caracteres) 
+- Numéricas (numeros)
+- Booleanas (Verdadeiro ou falso)
+
+Obs: No JS as variaveis são dinâmicamente tipadas
+const (criar uma constante)
+var ou let (criar uma variavel) 
+ATENÇÃO!!! JAMAIS usar o var 
