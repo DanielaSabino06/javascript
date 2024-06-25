@@ -79,3 +79,61 @@ Obs: No JS as variaveis são dinâmicamente tipadas
 const (criar uma constante)
 var ou let (criar uma variavel) 
 ATENÇÃO!!! JAMAIS usar o var 
+
+Tipagem dinâmica:
+Np JavaScript o tipo de string é definido quando o conteúdo da variável
+estiver entre aspas ""
+
+Variáveis númerias podem ser números inteiros e não inteiros
+Observação: , (vírgula é um caracteres e não número)
+Se necessário converter a entrada de dados de "," para "."
+.replace(",",".")
+
+Na entrada de dados númericos via terminal ou formulario é necessário
+converter para números
+Classe Number
+____________________________________
+
+Git e github
+https://www.youtube.com/watch?v=FF1f4bKYhoo&list=PLbEOwbQR9lqzK14I7OOeREEIE4k6rjgIj
+
+Configurando o Git
+- Instalar o Git
+Abrir o git bash  
+digitar:
+git config --global user.name "Daniela Oliveira Sabino"
+git config --global user.email "danielauninove@outlook.com"
+git clone https://github.com/DanielaSabino06/javascript.git
+
+git add . (adiciona todas as alteraçoes)
+git commit -m "Descrição das alterações" 
+
+___________________________________________________________________________________
+NOME - Plataforma para uso do JS fora do browser(navegador)
+|__ V8 (google chromium)
+|__ bibliotecas C / C++
+|__ pacotes npm (node packager menager)
+npm ls (lista os pacotes)
+npm i ou npm install (instala um pacote)
+npm r (nome do pacote) *remove o pacote*
+
+Pacote = Módulo = Biblioteca 
+Para usar um pacote é necessario fazer a importação no inicio
+do código (logo abaixo do cabeçalho de documentação)
+
+_______________________________________________________________________________________
+
+Algorítmo: "receita de bolo"
+
+Exemplo 1:
+Objetivo: Calcular a média de 2 notas  (verificar o que pode variar)
+
+        nota1 + nota 2
+Média = _______________
+              2
+
+Variáveis: nota1,nota2,media
+
+Entrada: nota1,nota2
+Processamento:  media = (nota1 + nota2) / 2
+Saída: media 

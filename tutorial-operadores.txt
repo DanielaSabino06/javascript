@@ -94,3 +94,4 @@ git clone https://github.com/DanielaSabino06/javascript.git
 
 git add . (adiciona todas as alteraçoes)
 git commit -m "Descrição das alterações" 
+git push
